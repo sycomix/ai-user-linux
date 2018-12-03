@@ -1,0 +1,37 @@
+# This section contains your application metadata.
+# Version of the application
+version: 0.2.0
+# Name of the application
+name: ai-user-linux
+# A short description of the application
+description: Containerized version of the AI User Software for DeepBrainChain.org
+# Namespace to use when pushing to a registry. This is typically your Hub username.
+namespace: deepinthought
+# List of application maintainers with name and email for each
+maintainers:
+  - name: Luke P. @ DeepInThought
+    email: support@deepinthought.io
+
+---
+# This section contains the Compose file that describes your application services.
+version: "3.6"
+services: 
+  dbcaiuser:
+    image: ${repository.name}/${image.name}:${image.tag}
+    command: ["-dbc", "${dbc}"]
+    volumes:
+      - type: volume
+        source: dbc-ai-user-volume
+        target: /dbc-ai-user
+
+volumes:
+  dbc-ai-user-volume:
+    name: ${volumes.dbc_ai_user.name}
+---
+# This section contains the default values for your application settings.
+repository.name: deepinthought
+image.name: ai-user-linux
+image.tag: 0.3.4.1
+volumes.dbc_ai_user.name: dbc-ai-user-volume
+dbc: ./dbc --id
+

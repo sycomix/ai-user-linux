@@ -1,0 +1,12 @@
+# See https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore 
+.vscode/*
+
+# See https://github.com/github/gitignore/blob/master/Global/Backup.gitignore
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+dialog.sh
+docker-builder.sh
