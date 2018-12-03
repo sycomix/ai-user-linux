@@ -27,9 +27,8 @@ RUN sed -i 's|release_version=.*|release_version='${release_version}'|g' "${AI_U
   source ai_user_linux_install.sh; \
   apt-get remove -y wget curl net-tools  \
   && apt autoclean \
-  && apt autoremove -y; \
-  "echo yes | /dbc-ai-user/0.3.4.1/dbc_repo/dbc --init &> /dev/null"
-
+  && apt autoremove -y; 
+  
 CMD [ "/dbc-ai-user/0.3.4.1/dbc_repo/dbc" ]
 
 LABEL email="support@deepinthought.io" Author="Luke P. @ DeepInThought"
