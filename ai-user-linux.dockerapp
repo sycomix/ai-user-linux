@@ -31,7 +31,8 @@ volumes:
 # This section contains the default values for your application settings.
 repository.name: deepinthought
 image.name: ai-user-linux
-image.tag: 0.3.4.1
+image.tag: latest
 volumes.dbc_ai_user.name: dbc-ai-user-volume
-dbc: ./dbc --id
+dbc.version: 0.3.4.1
+dbc: /dbc-ai-user/0.3.4.1/dbc_repo/dbc
 

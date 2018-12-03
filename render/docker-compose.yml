@@ -1,0 +1,14 @@
+version: "3.6"
+services:
+  dbcaiuser:
+    command:
+    - -dbc
+    - /dbc-ai-user/0.3.4.1/dbc_repo/dbc
+    image: deepinthought/ai-user-linux:latest
+    volumes:
+    - type: volume
+      source: dbc-ai-user-volume
+      target: /dbc-ai-user
+volumes:
+  dbc-ai-user-volume:
+    name: dbc-ai-user-volume
