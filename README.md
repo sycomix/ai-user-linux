@@ -53,12 +53,12 @@ Make sure you copy the node id file:
 ```bash
 dbc>>> system cat /dbc-ai-user/0.3.4.1/dbc_repo/dat/node.dat
 node_id=4cxpBfFM8u5fp8FpAFFgA5gWFMfcMH4ux55WbcB48CH5
-node_private_key=88NJ3m458HAbgx81kgC41g4JFAAfrxgWNck5MpgMmF1P4M45328mWcgA1MMPcbgABBfCFx1F8X2A8FGFHg8MfB8cbHC5Ca4GN8bWBM8BWsMrp8p85pWpaf834W1apg4aPPW84HCHGM88fk8Mk8HPFWgfpJmb4XNuPPFJ4uBHFsNN8HfFCmuR3MBuMfaFPM5gWfxcCJ8XP5fHBbWR4WBBHp183ap5CfcMC3BCWffPua4W3W853bkXgCAMHBaMR83838PFAfxPGBs5gkF3WmpCN3fksH5C5xJHC5M88CppC4Hgxf
+node_private_key=88NJ3m458HAbgx81kgC41g4JFAAfrxgWNck5MpgMmF1P4M45328mWcgA1MMPcbgABBfCFx1F8X2A8FGFHg8MfB8cbHC5Ca4GN8bWBM8BWsMrp8p85pWpaf834W1apg4aPPW84HCHGM88fk8Mk8HPFWgfpJmb4XNuPPFJ4uBHFsNN8HfFCmuR3MBuMfaFPM5gWfxcCJ8XP5fHBbWR4WBBHp183ap5CfcMC3BCWffPua4W3W853bkXgCAMHBaMR83838PFAfxPGBs5gkF3WmpCN3fksH5C5xJHC5M88CppC4Hgxq
 ```
 
 ## About Us
 
-Visit [README.deepIT.md](README.deepIT.md) for more information on [@DeepInThought]((https://github.com/DeepInThought)).
+Visit [README.deepIT.md](README.deepIT.md) for more information on [@DeepInThought](https://github.com/DeepInThought).
 
 ## Code of conduct
 
