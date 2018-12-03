@@ -24,6 +24,8 @@ The Docker Hub is located at [https://hub.docker.com/r/deepinthought/ai-user-lin
 
 ## Installation
 
+[![asciicast](https://asciinema.org/a/JOb8PwFeZ9DkVa4crdH4sSYOK.svg)](https://asciinema.org/a/JOb8PwFeZ9DkVa4crdH4sSYOK/?speed=2)
+
 `Run the following docker command in shell.`
 
 ```bash
